@@ -1,0 +1,8 @@
+Problem No. 3:
+A) Create a FitnessTracker class that includes data fields for a fitness activity, the  number  of  minutes  spent  participating,  and  the  date.  
+The  class  includes  methods  to  get  each  field.  
+In  addition,  create  a  default  constructor  that  automatically  sets  the  activity  to  running,  the  minutes  to  0,  and  the  date  to  January 1 of the current year. 
+Save the file as FitnessTracker.cpp. Create an application  that  demonstrates  each  method  works  correctly,  and  save  it  as  TestFitnessTracker.cpp.
+
+B)  Create  an  additional  overloaded  constructor  for  the  FitnessTracker  class  you created in Exercise 3a. This constructor receives parameters for each of the data fields and assigns them appropriately. 
+Add any needed statements to the TestFitnessTracker application to ensure that the overloadedConstructor works correctly, save it, and then test it.FitnessTracker.cpp: 
