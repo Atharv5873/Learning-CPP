@@ -5,4 +5,4 @@ In  addition,  create  a  default  constructor  that  automatically  sets  the  
 Save the file as FitnessTracker.cpp. Create an application  that  demonstrates  each  method  works  correctly,  and  save  it  as  TestFitnessTracker.cpp.
 
 B)  Create  an  additional  overloaded  constructor  for  the  FitnessTracker  class  you created in Exercise 3a. This constructor receives parameters for each of the data fields and assigns them appropriately. 
-Add any needed statements to the TestFitnessTracker application to ensure that the overloadedConstructor works correctly, save it, and then test it.FitnessTracker.cpp: 
+Add any needed statements to the TestFitnessTracker application to ensure that the overloadedConstructor works correctly, save it, and then test it FitnessTracker.cpp: 
