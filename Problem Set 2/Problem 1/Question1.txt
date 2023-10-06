@@ -1,0 +1,6 @@
+Problem 1:
+Create a class Point with two data members x and y to represent the point’s (x, y) coordinates.
+Create a class ColoredPoint that extends the Point and contains a single data member color. 
+Create a class Colored3DPoint that extends ColoredPoint. This class cannot be extended further. 
+This class contains a single data member z. 
+create a driver class and initialize and print all the data members of the classes by using an object of the Colored3DPoint class.
