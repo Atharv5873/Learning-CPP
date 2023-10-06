@@ -1,4 +1,4 @@
-# Problem 2:
+# Problem 3:
 Illustrate a multi-level inheritance based on the following relationship:
 
 ![Alt text](q3.png)
