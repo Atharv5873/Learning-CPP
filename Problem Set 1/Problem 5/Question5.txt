@@ -1,0 +1,12 @@
+Problem No. 5:
+A) Create a class named Circle with fields named radius, diameter, and area.
+Include  a  constructor  that  sets  the  radius  to  1  and  calculates  the  other  twovalues.  
+Also  include  methods  named  setRadius()  and  getRadius().  The setRadius() method not only sets the radius, but it also calculates the other twovalues. 
+(The diameter of a circle is twice the radius, and the area of a circle is pi multiplied by the square of the radius. Use the Math class PI constant for this calculation.) 
+Save the class as Circle.cpp. 
+
+B) Create  a  class  named  TestCircle  whose  main()  method declares  severalCircle objects. 
+Using the setRadius() method, assign one Circle a small radius value, and assign another a larger radius value. 
+Do not assign a value to the radius  of  the  third  circle;  instead,  retain  the  value  assigned at  construction.
+Display  all  the  values  for  all  the  Circle  objects.  
+Save  the application as TestCircle.cpp. 
