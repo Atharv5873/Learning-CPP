@@ -1,0 +1,7 @@
+Problem No. 2:
+Create a class to hold data about a high school sports team. 
+The Team class holds data fields for high school name (such as Roosevelt High), sport (such as Girls’  Basketball),  and  team  name  (such  as  Dolphins).  
+Include  a  constructor  that takes parameters for each field, and include get methods that return the values  of  the  fields.  
+Also  include  a  public  static  String  named  MOTTO  and  initialize  it  to  Sportsmanship!.  
+Write  an  application  named  TestTeam  to  instantiate  three  Team  objects  with  different  values,  and  then  display  all  the  data,  including  the  motto,  for  each  object.  
+Save  both  the  Team.cpp and TestTeam.cpp files.Team.cpp:
