@@ -1,0 +1,9 @@
+Problem 2:
+Develop an application to demonstrate IS-A relationship. For example,
+
+a. Vehicle is super class of Car.
+
+b. Car is sub class of Vehicle.
+
+c. Car IS-A Vehicle.
+
