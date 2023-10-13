@@ -20,7 +20,7 @@ class University{
     }
 };
 
-class CSEDept : public University{
+class CSEDept :virtual public University{
     protected:
     int Strength;
     public:
@@ -34,7 +34,7 @@ class CSEDept : public University{
         cout<<"There are eight Network labs in the Academic Block"<<endl;
     }
 };
-class ECEDept : public University{
+class ECEDept :virtual public University{
     protected:
     int strength;
     public:
@@ -54,20 +54,35 @@ class Student: public CSEDept, public ECEDept{
     string name;
     int sid;
     public:
-    Student(string name, int sid, string uniname, int csestrength, int ecestrength): CSEDept(csestrength, uniname), ECEDept(ecestrength, uniname), name(name), sid(sid) {}
+    Student(string name, int sid, string uniname, int csestrength, int ecestrength): University(uniname), CSEDept(csestrength, uniname), ECEDept(ecestrength, uniname), name(name), sid(sid) {}
 };
 int main()
 {
-    Student student("Atharv Sharma",7155,"VIT-AP",23,14);
-    student.CSEDept::Library(); 
-    student.ECEDept::Library();
-    student.CSEDept::Hostel();
-    student.ECEDept::Hostel();
-    student.CSEDept::Canteen();
-    student.ECEDept::Canteen();
-    student.cselab();
-    student.networklab();
-    student.ecelab();
-    student.vlsilab();
+    Student student1("Atharv Sharma",7155,"VIT-AP",29,23);
+    student1.Library();
+    student1.Hostel();
+    student1.Canteen();
+    student1.cselab();
+    student1.networklab();
+    student1.ecelab();
+    student1.vlsilab();
+    cout<<endl;
+    Student student2("Swapnaneel",7051,"IIT-AP",29,23);
+    student2.Library();
+    student2.Hostel();
+    student2.Canteen();
+    student2.cselab();
+    student2.networklab();
+    student2.ecelab();
+    student2.vlsilab();
+    cout<<endl;
+    Student student3("Aakash Sharma",7050,"VIT-AP",29,23);
+    student3.Library();
+    student3.Hostel();
+    student3.Canteen();
+    student3.cselab();
+    student3.networklab();
+    student3.ecelab();
+    student3.vlsilab();
     return 0;
 }
