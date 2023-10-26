@@ -9,7 +9,7 @@ class Monster
         Monster(string name):name(name){}
         virtual string attack()
         {
-            return "'s Power: Regeneration:\nMonsters with this power can heal wounds and injuries at an accelerated rate, making them formidable adversaries in battle. This power allows them to recover quickly, making them more resilient and challenging to defeat. ";
+            return "Regeneration:\nMonsters with this power can heal wounds and injuries at an accelerated rate, making them formidable adversaries in battle. This power allows them to recover quickly, making them more resilient and challenging to defeat. ";
         }
 };
 class FireMonster:public Monster
