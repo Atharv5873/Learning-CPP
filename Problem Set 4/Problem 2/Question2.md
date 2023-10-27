@@ -9,3 +9,8 @@ int main(){
     b1.findBill(i1,b1);
     b2.findBill(i2,b2);
 }
+
+Sample output:
+Bill 1: Invalid quantity
+Bill 2: 1800 
+
