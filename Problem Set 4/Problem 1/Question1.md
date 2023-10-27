@@ -1,0 +1,2 @@
+# Problem 1
+Write a CPP function to select the eligible team player based on the age with user defined exception handling mechanism. Get name and age of the player as argument. If age is >= 18 and <=24 add the player’s name into the selectedList array. If age is <0 and >150 throw “Invalid age exception”.
