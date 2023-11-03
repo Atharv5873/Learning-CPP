@@ -1,22 +1,30 @@
 #include <iostream>
 #include <string>
-#include <type_traits>
+#include <typeinfo>
+using namespace std;
 
 template <typename T>
-T doubling(T a) {
-    if constexpr (std::is_same<T, std::string>::value) {
-        return a + a;  // Concatenate the string
-    } else {
-        return a * a;  // Square for numeric types
-    }
+T doubling(T a) 
+{
+    string s;
+    char c;
+    int i;
+    if(typeid(a)==typeid(s))
+    return a+a;
+    if(typeid(a)==typeid(c))
+    return a+a;
+    if(typeid(a)==typeid(i))
+    return a*a;
 }
 
-int main() {
-    std::string str = "Atharv";
+
+int main() 
+{
+    string str = "Atharv";
     int num = 5;
 
-    std::cout << doubling(str) << std::endl;  // Outputs "AtharvAtharv" (string concatenation)
-    std::cout << doubling(num) << std::endl;  // Outputs "25" (squared numeric value)
+    cout << doubling(str) << endl;  
+    cout << doubling(num) << endl;  
 
     return 0;
 }
