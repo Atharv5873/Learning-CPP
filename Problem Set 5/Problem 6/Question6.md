@@ -1,0 +1,2 @@
+# Problem 6
+Create an employee class with eid and ecode as same generic type and check whether eid and ecode are same for each employee or not. If eid and ecode are same display it is valid, else display invalid.
