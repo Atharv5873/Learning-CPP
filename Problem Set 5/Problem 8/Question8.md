@@ -1,0 +1,2 @@
+# Problem 8
+Create a base class vehicle which is having veh.reg no as generic type. Create a derived class Car and Bike which are having chassis_no as generic type and name as string type. Initialize all the values through constructors and display the information of two cars and two bikes.
