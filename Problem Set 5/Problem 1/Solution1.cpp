@@ -2,14 +2,13 @@
 using namespace std;
 
 template<typename t>
-t add(t a,t b)
+void add(t a,t b)
 {
-    return (a+b);
+    cout<<a+b<<endl<<a-b<<endl<<a*b<<endl<<float(a/b);
 }
 
 int main()
 {
-    cout<<add(9,1)<<endl;
-    cout<<add(11,9)<<endl;
+    add(9,1);
 }
 
