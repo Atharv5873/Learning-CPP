@@ -1,0 +1,2 @@
+# Problem 6
+Create an item class with icode, iname, price and qty. Initialize 5 item objects. Write all those 5 item objects into “stock.txt” file using “void store()” function. Display all those objects with its values written in “stock.txt” using “void available()” function
