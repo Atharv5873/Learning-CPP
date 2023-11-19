@@ -1,0 +1,2 @@
+# Problem 7
+Write a CPP program to read a text file “students.txt” which contains student name, regno, marks of 10 students line by line. Convert all the contents of “students.txt” file into student object and write it into “outstudent.txt:  
