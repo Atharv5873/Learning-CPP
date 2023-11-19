@@ -1,0 +1,40 @@
+Name: Alice
+Reg No: 22XYZ1234
+Marks: 85.00
+
+Name: Bob
+Reg No: 22ABC5678
+Marks: 92.00
+
+Name: Charlie
+Reg No: 22DEF9101
+Marks: 78.00
+
+Name: David
+Reg No: 22GHI1121
+Marks: 89.00
+
+Name: Eva
+Reg No: 22JKL3141
+Marks: 95.00
+
+Name: Frank
+Reg No: 22MNO5162
+Marks: 80.00
+
+Name: Grace
+Reg No: 22PQR7183
+Marks: 88.00
+
+Name: Henry
+Reg No: 22STU9204
+Marks: 93.00
+
+Name: Ivy
+Reg No: 22VWX1225
+Marks: 75.00
+
+Name: Jack
+Reg No: 22YZA3246
+Marks: 91.00
+
