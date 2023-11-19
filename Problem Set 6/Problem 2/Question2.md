@@ -1,0 +1,2 @@
+# Problem 2
+Assume a “input.txt” file which contains n number of lines. Each line contains one integer value. Read the “input.txt” file and store the all those n integer values and store it into an array using “int *readary()” function and return the array to the main function. 

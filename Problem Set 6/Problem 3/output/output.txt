@@ -1,0 +1,5 @@
+Input 1 : 12
+Input 2 : 47
+Input 3 : 34
+The Biggest Number is : 47
+
